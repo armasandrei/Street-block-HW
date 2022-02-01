@@ -73,10 +73,33 @@ body{
     display: inline-block;
     
 }
+.open-window{
+    border-right: 2px inset darkorange;
+    width: 17px;
+    height: inherit;
+     
+    
+}
+.open-window-tall{
+    border-right: 2px inset darkorange;
+    width: 17px;
+    height: 30px;
+   margin-top: -2px;
+     
+    
+}
+.open-window-small{
+    border-right: 2px inset darksalmon;
+    width: 17px;
+    height: 30px;
+   margin-top: -2px;
+     
+    
+}
 .house-window-small{
     width: 25px;
     height: 25px;
-    border: 2px solid brown;
+    border: 3px inset brown;
     transform: translateX(10px) translateY(23px);
     margin: 2px;
     padding: 2px;
@@ -106,12 +129,12 @@ body{
 }
 .house-dor-small{
     width: 30px;
-    height: 60px;
+    height: 55px;
     border: 3px inset rgb(218, 100, 100);
     transform: translateX(11px) translateY(13px);
     margin-top: 10px;
-    margin-bottom: ;
-    padding: px; 
+ 
+   
     display: inline-block;
     
     
@@ -135,14 +158,51 @@ body{
     vertical-align: top;
     padding-left: 20px;
     padding-top: 50px;
+    display: inline-block;
+}
+.cloudBIG{
+    
+    width: 70px;
+   padding: 20px;
+    
+  /* background-color: white;*/
+    vertical-align: top;
+  
+    padding-top: 50px;
+    display: inline-block;
+    transform: translateX(-130px) translateY(10px);
+    
 }
 .building-small{ 
     display: inline-block;
-    display: inline-block;
+    
     height: 240px;
     width: 100px;
     background-color: beige;
-   transform: translateX(20px) translateY(19px);;
+   transform: translateX(20px) translateY(19px);
+
+}
+.tree{
+     display: inline-block;
+     width: 155px;
+     height: 155px;
+       
+    background-color: #003300;
+   transform: translateX(-50px) translateY(20px);
+  border-radius: 50px;
+  padding-bottom: 10px;
+  
+  display: inline-block;
+   
+}
+
+.auto{
+display: inline-block;
+transform: translateX(20px) translateY(20px);
+margin-left: -160px;
+background-color: #aaa;
+border-radius: 10px;
+
 
 }
 </style>
@@ -155,6 +215,7 @@ body{
         <div class="house-roof"></div>
             <div class="house-wall">
                 <div class="house-window">
+                    <div class="open-window"></div>
            </div>
         </div>
 
@@ -163,15 +224,15 @@ body{
        <div class="building-tall">
         <div class="house-roof-tall"></div>
         <div class="house-wall">
-            <div class="house-window-tall"> </div>
-            <div class="house-window-tall"> </div>
-            <div class="house-window-tall"> </div>
-            <div class="house-window-tall"> </div>
-            <div class="house-window-tall"> </div>
-            <div class="house-window-tall"> </div>
-            <div class="house-window-tall"> </div>
-            <div class="house-window-tall"> </div>
-            <div class="house-window-tall"> </div>
+            <div class="house-window-tall"><div class="open-window-tall"></div></div>
+            <div class="house-window-tall"> <div class="open-window-tall"></div></div>
+            <div class="house-window-tall"> <div class="open-window-tall"></div></div>
+            <div class="house-window-tall"> <div class="open-window-tall"></div></div>
+            <div class="house-window-tall"> <div class="open-window-tall"></div></div>
+            <div class="house-window-tall"> <div class="open-window-tall"></div></div>
+            <div class="house-window-tall"> <div class="open-window-tall"></div></div>
+            <div class="house-window-tall"> <div class="open-window-tall"></div></div>
+            <div class="house-window-tall"> <div class="open-window-tall"></div></div>
             <div class="house-dor-tall"> </div>
 
             
@@ -181,21 +242,44 @@ body{
            
 
        </div>
-       <div class="cloud">
-           <img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-12/48/cloud-icon.png" alt="">
-       </div>
+            <div class="cloud">
+               <img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-12/48/cloud-icon.png" alt="">
+        
+           </div>  
+                 <div class="tree" > 
+                       <img  src="https://icons.iconarchive.com/icons/chanut/role-playing/48/Treant-Tree-icon.png" alt="">
+                       <img  src="https://icons.iconarchive.com/icons/chanut/role-playing/48/Treant-Tree-icon.png" alt="">
+                       <img  src="https://icons.iconarchive.com/icons/chanut/role-playing/48/Treant-Tree-icon.png" alt="">
+                       <img  src="https://icons.iconarchive.com/icons/chanut/role-playing/48/Treant-Tree-icon.png" alt="">
+                       <img  src="https://icons.iconarchive.com/icons/chanut/role-playing/48/Treant-Tree-icon.png" alt="">
+                       <img  src="https://icons.iconarchive.com/icons/chanut/role-playing/48/Treant-Tree-icon.png" alt="">
+                       <img  src="https://icons.iconarchive.com/icons/chanut/role-playing/48/Treant-Tree-icon.png" alt="">
+                       <img  src="https://icons.iconarchive.com/icons/chanut/role-playing/48/Treant-Tree-icon.png" alt="">
+                       <img  src="https://icons.iconarchive.com/icons/chanut/role-playing/48/Treant-Tree-icon.png" alt="">
 
-       <div class="building-small">
-            <div class="house-roof-tall"></div>
-            <div class="house-wall">
-                <div class="house-window-small"> </div>
-                <div class="house-window-small"> </div>
-                <div class="house-window-small"> </div>
-                <div class="house-window-small"> </div>
-                <div class="house-window-small"> </div>
-                <div class="house-window-small"> </div>
-                <div class="house-dor-small"> </div>
-                <div class="house-window-small1"> </div>
+                 </div>
+           <div class="cloudBIG">
+                       <img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-12/48/cloud-icon.png" alt="">
+        
+                 </div>
+                     <div class="auto">
+                         <img src="https://icons.iconarchive.com/icons/icons-land/transport/64/Cabriolet-icon.png" alt="">
+                         <img src="https://icons.iconarchive.com/icons/icons-land/transport/64/Cabriolet-icon.png" alt="">
+                         <img src="https://icons.iconarchive.com/icons/icons-land/transport/64/Cabriolet-icon.png" alt="">
+                    
+                        </div>
+
+                     <div class="building-small">
+                        <div class="house-roof-tall"></div>
+                             <div class="house-wall">
+                                   <div class="house-window-small"> <div class="open-window-small"></div></div>
+                                   <div class="house-window-small"> <div class="open-window-small"></div></div>
+                                   <div class="house-window-small"><div class="open-window-small"></div> </div>
+                                   <div class="house-window-small"><div class="open-window-small"></div> </div>
+                                   <div class="house-window-small"> <div class="open-window-small"></div></div>
+                                   <div class="house-window-small"><div class="open-window-small"></div> </div>
+                                   <div class="house-dor-small"> </div>
+                                   <div class="house-window-small1"> <div class="open-window-small"></div></div>
                 
                 
             
